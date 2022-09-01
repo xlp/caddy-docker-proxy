@@ -1130,6 +1130,8 @@ github.com/xanzy/go-gitlab v0.31.0/go.mod h1:sPLojNBn68fMUWSxIJtdVVIP8uSBYqesTfD
 github.com/xanzy/ssh-agent v0.2.1/go.mod h1:mLlQY/MoOhWBj+gOGMQkOeiEvkx+8pJSI+0Bx9h2kr4=
 github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8/go.mod h1:HUYIGzjTL3rfEspMxjDjgmT5uz5wzYJKVo23qUhYTos=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
+github.com/xlp/caddy-docker-proxy/v2 v2.0.0-20220901082758-970aef21a566 h1:4k4eBCPqdp5XzRRxvmvad/yRpw+uy8Xamov8xdPQK+I=
+github.com/xlp/caddy-docker-proxy/v2 v2.0.0-20220901082758-970aef21a566/go.mod h1:NeTYjfuF2TlgO2nrL1gHe3WFWskqoqVv3cLUNAdbSdg=
 github.com/xlp/caddy/v2 v2.0.0-20220901004934-cb849bd66482 h1:2dWOTyPCgyOLsHy6cC+rpX0y0fw0pTocyyOHbt8lIXU=
 github.com/xlp/caddy/v2 v2.0.0-20220901004934-cb849bd66482/go.mod h1:GXiWwAZ3H1Y5pFbQ33tOFxU8BQC/3uXplpHfWfE82B8=
 github.com/xlp/certmagic v0.0.0-20220901075940-027a927a3d4f h1:H0u3YADOuWFH/DCSHDXqVRa32CMgsOGKDuvuj27I3Oc=

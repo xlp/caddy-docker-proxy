@@ -5,6 +5,7 @@ go 1.17
 require (
 	github.com/caddyserver/caddy/v2 v2.5.2
 	github.com/docker/docker v20.10.17+incompatible
+	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.8.0
 	go.uber.org/zap v1.21.0
 )
@@ -12,6 +13,7 @@ require (
 require (
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
+	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v1.2.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
@@ -82,8 +84,6 @@ require (
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
-	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
-	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/onsi/ginkgo v1.16.4 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
@@ -145,11 +145,11 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gotest.tools/v3 v3.3.0 // indirect
 	howett.net/plist v1.0.0 // indirect
 )
 
 replace (
 	github.com/caddyserver/caddy/v2 => github.com/xlp/caddy/v2 v2.0.0-20220901004934-cb849bd66482
 	github.com/caddyserver/certmagic => github.com/xlp/certmagic v0.0.0-20220901075940-027a927a3d4f
+	github.com/lucaslorentz/caddy-docker-proxy/v2 => github.com/xlp/caddy-docker-proxy/v2 v2.0.0-20220901082758-970aef21a566
 )
