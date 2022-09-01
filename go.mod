@@ -152,4 +152,8 @@ replace (
 	github.com/caddyserver/caddy/v2 => github.com/xlp/caddy/v2 v2.0.0-20220901004934-cb849bd66482
 	github.com/caddyserver/certmagic => github.com/xlp/certmagic v0.0.0-20220901075940-027a927a3d4f
 	github.com/lucaslorentz/caddy-docker-proxy/v2 => github.com/xlp/caddy-docker-proxy/v2 v2.0.0-20220901082758-970aef21a566
+	github.com/lucaslorentz/caddy-docker-proxy/v2/config => github.com/xlp/caddy-docker-proxy/v2/config v2.0.0-20220901082758-970aef21a566
+	github.com/lucaslorentz/caddy-docker-proxy/v2/docker => github.com/xlp/caddy-docker-proxy/v2/docker v2.0.0-20220901082758-970aef21a566
+	github.com/lucaslorentz/caddy-docker-proxy/v2/generator => github.com/xlp/caddy-docker-proxy/v2/generator v2.0.0-20220901082758-970aef21a566
+	github.com/lucaslorentz/caddy-docker-proxy/v2/utils => github.com/xlp/caddy-docker-proxy/v2/utils v2.0.0-20220901082758-970aef21a566
 )
