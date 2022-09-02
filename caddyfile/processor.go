@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/caddyserver/caddy/v2/caddyconfig"
+	"github.com/xlp/caddy/v2/caddyconfig"
 )
 
 // Process caddyfile and removes wrong server blocks

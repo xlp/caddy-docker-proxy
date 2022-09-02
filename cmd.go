@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/caddyserver/caddy/v2"
-	caddycmd "github.com/caddyserver/caddy/v2/cmd"
-	"github.com/lucaslorentz/caddy-docker-proxy/v2/config"
-	"github.com/lucaslorentz/caddy-docker-proxy/v2/generator"
+	"github.com/xlp/caddy-docker-proxy/v2/config"
+	"github.com/xlp/caddy-docker-proxy/v2/generator"
+	"github.com/xlp/caddy/v2"
+	caddycmd "github.com/xlp/caddy/v2/cmd"
 
 	"go.uber.org/zap"
 )

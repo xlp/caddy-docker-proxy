@@ -8,14 +8,14 @@ echo ARTIFACTS: "${ARTIFACTS:=./artifacts}"
 go vet ./...
 go test -race ./...
 
-go install github.com/xlp/xcaddy/cmd/xcaddy@latest
+go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 
 # AMD64
 CGO_ENABLED=0 GOARCH=amd64 GOOS=linux \
     xcaddy build \
     --output ${ARTIFACTS}/binaries/linux/amd64/caddy \
     --with github.com/xlp/caddy-docker-proxy/v2=$PWD \
-    --with github.com/caddyserver/caddy/v2=github.com/xlp/caddy/v2
+    --with github.com/caddyserver/caddy/v2=github.com/xlp/caddy/v2@master
 
 ## ARM
 #CGO_ENABLED=0 GOARCH=arm GOARM=6 GOOS=linux \

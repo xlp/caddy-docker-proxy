@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	_ "github.com/caddyserver/caddy/v2/modules/standard" // plug standard HTTP modules
+	_ "github.com/xlp/caddy/v2/modules/standard" // plug standard HTTP modules
 )
 
 // Marshal container into caddyfile bytes

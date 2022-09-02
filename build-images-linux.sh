@@ -13,21 +13,19 @@ OUTPUT="type=local,dest=local"
 TAGS=
 TAGS_ALPINE=
 
-if [[ "${BUILD_SOURCEBRANCH}" == "refs/heads/master" ]]; then
+#if [[ "${BUILD_SOURCEBRANCH}" == "refs/heads/master" ]]; then
     echo "Building and pushing CI images"
 
 
     OUTPUT="type=registry"
     TAGS="-t docker.eternalnet.ch/caddy-docker-proxy:ci"
     TAGS_ALPINE="-t docker.eternalnet.ch/caddy-docker-proxy:ci-alpine"
-fi
+#fi
 
 if [[ "${BUILD_SOURCEBRANCH}" =~ ^refs/tags/v[0-9]+\.[0-9]+\.[0-9]+(-.*)?$ ]]; then
     RELEASE_VERSION=$(echo $BUILD_SOURCEBRANCH | cut -c11-)
 
     echo "Releasing version ${RELEASE_VERSION}..."
-
-    docker login -u docker.eternalnet.ch -p "$DOCKER_PASSWORD"
 
     PATCH_VERSION=$(echo $RELEASE_VERSION | cut -c2-)
     MINOR_VERSION=$(echo $PATCH_VERSION | cut -d. -f-2)

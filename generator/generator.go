@@ -11,9 +11,9 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/swarm"
-	"github.com/lucaslorentz/caddy-docker-proxy/v2/caddyfile"
-	"github.com/lucaslorentz/caddy-docker-proxy/v2/config"
-	"github.com/lucaslorentz/caddy-docker-proxy/v2/docker"
+	"github.com/xlp/caddy-docker-proxy/v2/caddyfile"
+	"github.com/xlp/caddy-docker-proxy/v2/config"
+	"github.com/xlp/caddy-docker-proxy/v2/docker"
 
 	"go.uber.org/zap"
 )

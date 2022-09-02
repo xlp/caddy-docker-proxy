@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	_ "github.com/caddyserver/caddy/v2/modules/standard" // plug standard HTTP modules
 	"github.com/stretchr/testify/assert"
+	_ "github.com/xlp/caddy/v2/modules/standard" // plug standard HTTP modules
 )
 
 func TestMarshalUnmarshal(t *testing.T) {

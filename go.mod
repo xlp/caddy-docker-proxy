@@ -3,9 +3,7 @@ module github.com/xlp/caddy-docker-proxy/v2
 go 1.17
 
 require (
-	github.com/caddyserver/caddy/v2 v2.5.2
 	github.com/docker/docker v20.10.17+incompatible
-	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.8.0
 	go.uber.org/zap v1.21.0
 )
@@ -13,7 +11,6 @@ require (
 require (
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
-	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/BurntSushi/toml v1.2.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
@@ -23,6 +20,7 @@ require (
 	github.com/antlr/antlr4/runtime/Go/antlr v0.0.0-20220418222510-f25a4f6275ed // indirect
 	github.com/aryann/difflib v0.0.0-20210328193216-ff5ff6dc229b // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/caddyserver/caddy/v2 v2.5.2 // indirect
 	github.com/caddyserver/certmagic v0.17.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.2 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
@@ -57,7 +55,6 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.10.1 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
@@ -84,6 +81,8 @@ require (
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
+	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/onsi/ginkgo v1.16.4 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
@@ -105,11 +104,10 @@ require (
 	github.com/smallstep/nosql v0.4.0 // indirect
 	github.com/smallstep/truststore v0.11.0 // indirect
 	github.com/spf13/cast v1.4.1 // indirect
-	github.com/spf13/cobra v1.1.3 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/tailscale/tscert v0.0.0-20220316030059-54bbcb9f74e2 // indirect
 	github.com/urfave/cli v1.22.5 // indirect
+	github.com/xlp/caddy/v2 v2.0.0-20220902084046-fb043698aaa1 // indirect
 	github.com/yuin/goldmark v1.4.13 // indirect
 	github.com/yuin/goldmark-highlighting v0.0.0-20220208100518-594be1970594 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
@@ -143,17 +141,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	gotest.tools/v3 v3.3.0 // indirect
 	howett.net/plist v1.0.0 // indirect
-)
-
-replace (
-	github.com/caddyserver/caddy/v2 => github.com/xlp/caddy/v2 v2.0.0-20220901004934-cb849bd66482
-	github.com/caddyserver/certmagic => github.com/xlp/certmagic v0.0.0-20220901075940-027a927a3d4f
-	github.com/lucaslorentz/caddy-docker-proxy/v2 => github.com/xlp/caddy-docker-proxy/v2 v2.0.0-20220901082758-970aef21a566
-	github.com/lucaslorentz/caddy-docker-proxy/v2/config => github.com/xlp/caddy-docker-proxy/v2/config v2.0.0-20220901082758-970aef21a566
-	github.com/lucaslorentz/caddy-docker-proxy/v2/docker => github.com/xlp/caddy-docker-proxy/v2/docker v2.0.0-20220901082758-970aef21a566
-	github.com/lucaslorentz/caddy-docker-proxy/v2/generator => github.com/xlp/caddy-docker-proxy/v2/generator v2.0.0-20220901082758-970aef21a566
-	github.com/lucaslorentz/caddy-docker-proxy/v2/utils => github.com/xlp/caddy-docker-proxy/v2/utils v2.0.0-20220901082758-970aef21a566
 )
